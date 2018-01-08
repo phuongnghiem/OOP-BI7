@@ -94,23 +94,20 @@ public class LoginFrame {
         lecturerLoginNoti=new JLabel("");
         lecturer     = new JFrame("Lecturer Login");
         lecturer.setLocation(400,400);
+        lecturer.setSize(400,150);
+        lecturer.setResizable(false);
         lecturer.setLayout(new GridLayout(5,2));
-        lecturer.add(new JLabel("Login for Lecturers only"));
-        lecturer.add(new JLabel(" "));
-        lecturer.add(new JLabel("Username "));
-        lecturer.add(lecturerID);
-        lecturer.add(new JLabel("Password "));
-        lecturer.add(lecturerPW);
-        lecturer.add(new JLabel(""));
-        lecturer.add(lecturerLoginNoti);
-        lecturer.add(lectureLogin);
+        lecturer.add(new JLabel(" Just kidding, only Admin can use this program!!! "));
+        lecturer.add(new JLabel(" Button BACK to continue login as ADMIN "));
         lecturer.add(lecturerLoginBack);
+
+        lecturer.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         /*----------------------------------------*/
 
         choose  = new JPanel(new GridLayout(2,2));
         choose.setSize(300,200);
-        choose.add(new JLabel("If admin, click below  "));
-        choose.add(new JLabel("  If lecturer, click below"));
+        choose.add(new JLabel(" If admin, click below  "));
+        choose.add(new JLabel("  If lecturer, click below "));
         chooseAdmin     = new JButton("ADMIN");
         chooseAdmin.addActionListener(new ActionListener() {
             @Override
@@ -151,6 +148,8 @@ public class LoginFrame {
         return this.correctPassword;
     }
 }
+
+
 
 
 
