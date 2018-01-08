@@ -10,6 +10,8 @@ public class InforFrameCourse {
     private JTextField codeField;
     private JLabel credit;
     private JTextField creditField;
+    private JLabel lecturer;
+    private JTextField lecturerField;
     public JLabel avatar;
     public JButton update;
     public JButton  find;
@@ -47,6 +49,15 @@ public class InforFrameCourse {
         String t= new Integer(s).toString();
         this.creditField.setText(t);
     }
+    public void setLecturerLabel(String s){
+        this.lecturer.setText(s);
+    }
+    public void setLecturerField(String s){
+        this.lecturerField.setText(s);
+    }
+    public String getLecturerField(){
+        return this.lecturerField.getText();
+    }
 
 
     public InforFrameCourse(){
@@ -56,6 +67,8 @@ public class InforFrameCourse {
         codeField  = new JTextField(10);
         credit=new JLabel("");
         creditField=new JTextField(10);
+        lecturer = new JLabel("");
+        lecturerField = new JTextField(10);
         avatar =new JLabel("");
 
         /* set buttons */
@@ -66,7 +79,7 @@ public class InforFrameCourse {
         back   = new JButton("Back");
 
         frame = new JFrame("Information");
-        frame.setLayout(new GridLayout(6,2));
+        frame.setLayout(new GridLayout(7,2));
         frame.setSize(300,200);
         frame.setLocation(400,400);
         frame.setVisible(true);
@@ -76,6 +89,8 @@ public class InforFrameCourse {
         frame.add(codeField);
         frame.add(credit);
         frame.add(creditField);
+        frame.add(lecturer);
+        frame.add(lecturerField);
 
         frame.setResizable(false);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
