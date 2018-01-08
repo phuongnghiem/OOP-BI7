@@ -1,3 +1,4 @@
+import javax.swing.*;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -6,7 +7,7 @@ import java.util.ArrayList;
 public class TestDeserialize {
     public ArrayList<Lecturer> Deserialize(){
         ArrayList<Lecturer> prof =new ArrayList<Lecturer>();
-        String filename ="dulieu.ser";
+        String filename ="DataOfLecturerFinal.ser";
         try
         {
             // Reading the object from a file
@@ -23,7 +24,7 @@ public class TestDeserialize {
         }
         catch(IOException ex)
         {
-            System.out.println("IOException is caught");
+            JOptionPane.showMessageDialog(null,"Data is empty, add a new lecturer!");
         }
         catch(ClassNotFoundException ex)
         {
