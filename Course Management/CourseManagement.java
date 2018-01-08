@@ -1,6 +1,4 @@
 import javax.swing.*;
-import javax.swing.plaf.nimbus.NimbusLookAndFeel;
-import java.util.ArrayList;
 
 public class CourseManagement {
     public static void main(String args[]){
@@ -20,11 +18,17 @@ public class CourseManagement {
             }
         }
 
+        /* ArrayList<Lecturer> test1 = new ArrayList<Lecturer>();
+        test1.add(new Lecturer("abcaplzzskasdashdasd","000abz109-72bfg","900099xxxx74"));
+        TestSerialize TEST1 = new TestSerialize(test1);
+
+        ArrayList<Course> test2 = new ArrayList<Course>();
+        test2.add(new Course("ahihowthknhihi","xyz-1056998-cg",69,"asd"));
+        TestSerializeCourse TEST2 = new TestSerializeCourse(test2); */
 
 
 
-
-        LoginFrame L=new LoginFrame();
+        LoginFrame TRIAL =new LoginFrame();
 
     }
 }
