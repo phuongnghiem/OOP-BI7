@@ -555,7 +555,7 @@ public class Content {
             System.setErr(printStream);
             displayArea.setText("");
             System.out.println("Enter any thing you want to search about courses in course search field");
-            System.out.println("Enter any thing you want to search about lecturers in lecture search fiels");
+            System.out.println("Enter any thing you want to search about lecturers in lecture search field");
             System.out.println("You can only modify information if you know their CODE or ID");
             System.out.println("");
             System.out.println("TOPIC 2: Courses Management System");
