@@ -15,10 +15,9 @@ Member list
 * Ha Minh Huong BI7-079.
 * Do Thu Anh BI7-006.
 * Tran Thi Thuy Kieu BI7-088.
-* Tran Ngoc Diep BI7-
-* Cao Phuong Linh BI7-
+* Cao Phuong Linh BI7-091
 
 Project description
 =====================================
-Course Management.
+Course Management S
 With this application, one change add, find, delete and change information of Courses as well as Lecturers.
