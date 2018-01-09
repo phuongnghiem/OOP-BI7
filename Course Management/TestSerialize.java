@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class TestSerialize {
     public TestSerialize(ArrayList<Lecturer> lec){
         try{
-            FileOutputStream file = new FileOutputStream("dulieu.ser");
+            FileOutputStream file = new FileOutputStream("DataOfLecturerFinal1.ser");
             ObjectOutputStream out = new ObjectOutputStream(file);
 
 
