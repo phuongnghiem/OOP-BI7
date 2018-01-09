@@ -641,8 +641,9 @@ public class Content {
                     if(test77.get(i).name.equals(var1)||test77.get(i).id.equals(var1)||test77.get(i).mobile.equals(var1)){
                         System.out.println("------------------");
                         System.out.println("Name: "+test77.get(i).name);
-                        System.out.println("Code: "+test77.get(i).id);
-                        System.out.println("Credits: "+test77.get(i).mobile);
+                        System.out.println("ID: "+test77.get(i).id);
+                        System.out.println("Mobile: "+test77.get(i).mobile);
+
                     }
                 }
             }
@@ -686,6 +687,7 @@ public class Content {
                 ArrayList<Lecturer> display2 = test19.Deserialize();
                 for(int i=0;i<display2.size();i++){
                     if(!display2.get(i).id.equals("000abz109-72bfg")&&!display2.get(i).mobile.equals("")&&!display2.get(i).id.equals("")&&!display2.get(i).name.equals("")){
+                        System.out.println("----------------------");
                         System.out.println("Name: "+display2.get(i).name);
                         System.out.println("ID: "+display2.get(i).id);
                         System.out.println("Mobile number: "+display2.get(i).mobile);
