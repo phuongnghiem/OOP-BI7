@@ -11,9 +11,13 @@ Students are expected to:
 Member list
 =====================================
 
-*Add student list of your group here*
+* Nguyen Dinh Mau BI7-106
+* Ha Minh Huong BI7-079.
+* Do Thu Anh BI7-006.
+* Tran Thi Thuy Kieu BI7-088.
+* Cao Phuong Linh BI7-091
 
 Project description
 =====================================
-
-*Add your project description here*
+Course Management S
+With this application, one change add, find, delete and change information of Courses as well as Lecturers.
