@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class TestDeserialize {
     public ArrayList<Lecturer> Deserialize(){
         ArrayList<Lecturer> prof =new ArrayList<Lecturer>();
-        String filename ="DataOfLecturerFinal.ser";
+        String filename ="DataOfLecturerFinal1.ser";
         try
         {
             // Reading the object from a file
