@@ -3,14 +3,15 @@ import java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 
-public class TestSerialize {
-    public TestSerialize(ArrayList<Lecturer> lec){
+public class TestSerializeCourse {
+    public   TestSerializeCourse(ArrayList<Course> course){
+
         try{
-            FileOutputStream file = new FileOutputStream("DataOfLecturerFinal1.ser");
+            FileOutputStream file = new FileOutputStream("DataOfCourseFinal1.ser");
             ObjectOutputStream out = new ObjectOutputStream(file);
 
 
-            out.writeObject(lec);
+            out.writeObject(course);
 
 
             out.close();
