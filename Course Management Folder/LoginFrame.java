@@ -130,13 +130,14 @@ public class LoginFrame {
         choose.add(chooseLecturer);
 
         frame = new JFrame("Login");
+        frame.setSize(300,180);
         frame.setLocation(400,400);
         frame.add(choose);
         frame.setVisible(true);
-        frame.setSize(250,180);
+        
         frame.setResizable(false);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.pack();
+        
 
         }
     public void setPW(String s){
