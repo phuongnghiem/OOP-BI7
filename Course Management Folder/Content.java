@@ -735,8 +735,7 @@ public class Content {
         menuBar.add(system);
         menuBar.add(course);
         menuBar.add(lecturer);
-        menuBar.add(event);
-        menuBar.add(report);
+       
 
         frame = new JFrame("Control Panel");
         frame.setLocation(250,400);
