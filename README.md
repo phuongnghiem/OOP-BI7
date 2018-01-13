@@ -11,9 +11,17 @@ Students are expected to:
 Member list
 =====================================
 
-*Add student list of your group here*
+  Le Gia Anh Quy  . ID: USTHBI7-133
+	Nguyen Hoang Vu. ID: USTHBI7-164
+	Vu Ngoc Quang. ID: USTHBI6-124
+	Pham Minh Kien. ID: USTHBI7-087
+	Dao Binh Minh. ID: USTHBI6-094
+	Nguyen Tran Nhat Duc. ID: USTHBI7-039
 
 Project description
 =====================================
 
-*Add your project description here*
+Topic 7: Develop an accounting software to manage tuition fee of USTH bachelor students
+
+- Building acconting software from user.
+- Manage student list.
